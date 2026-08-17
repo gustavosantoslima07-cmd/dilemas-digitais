@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidadania Digital | Guia de Orientação</title>
+    <style>
+        header {
+            background-color: #183C63;
+            color: #FFFFFF;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 30px auto;
+            padding: 20px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            background-color: #e2e8f0;
+            color: #183C63;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px 0;
+        }
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+
+        div p {
+            line-height: 1.6;
+        }
+
+        .artigo-autor {
+            font-weight: bold;
+            color: #4a5568;
+            font-size: 0.9rem;
+        }
+
+        .imagem {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 750px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        article div:first-child {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        button {
+            background-color: #f1f5f9;
+            border: 1px solid #cbd5e1;
+            padding: 8px 12px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background-color: #e2e8f0;
+        }
+
+        footer {
+            background-color: #183C63;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .sugestoes-lista {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        .sugestoes-lista li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Consciência Digital</h1>
+        <p>Guia de orientação sobre os impactos, riscos sociais e a vida conectado</p>
+        <button>❤️ <span>0</span></button>
+        <button>👍 <span>0</span></button>
+    </header>
+
+    <!-- Post 1: Manipulação Digital -->
+    <main>
+        <article>
+            <div>
+                <h2>A Causa Raiz: Algoritmos de Engajamento</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>A raiz dos problemas digitais está no modelo de negócios das grandes plataformas. Os algoritmos são desenhados para reter nossa atenção pelo maior tempo possível. Para isso, eles priorizam conteúdos que geram reações emocionais extremas, como indignação, medo e divisão social, transformando usuários em produtos de dados.</p>
+                <button>❤️ <span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+            <div>
+                <!-- Substitua pelo caminho da sua imagem sobre algoritmos/redes -->
+                <img src="algoritmo-icon.svg" class="imagem" alt="Ilustração de conexões digitais e dados">
+            </div>
+        </article>
+    </main>
+
+    <!-- Post 2: Riscos Sociais -->
+    <main>
+        <article>
+            <div>
+                <h2>Os Impactos Ocultos da Manipulação Digital</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>A manipulação digital molda secretamente nossos comportamentos e opiniões através de bolhas de informação (eco). Isso destrói o debate público saudável, espalha desinformação em massa e distorce a percepção da realidade, gerando polarização política extrema e sérios riscos para a saúde mental coletiva.</p>
+                <button>❤️ <span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+            <div>
+                <!-- Substitua pelo caminho da sua imagem sobre redes sociais -->
+                <img src="manipulacao-icon.svg" class="imagem" alt="Ilustração de telas e usuários">
+            </div>
+        </article>
+    </main>
+
+    <!-- Post 3: Sugestões e Soluções -->
+    <main>
+        <article>
+            <div>
+                <h2>Como se Proteger: Guia Prático de Sobrevivência</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>Não precisamos abandonar a tecnologia, mas sim mudar nossa postura diante dela. Veja algumas ações práticas imediatas:</p>
+                <ul class="sugestoes-lista">
+                    <li><strong>Desative notificações:</strong> Retome o controle de quando você olha o celular.</li>
+                    <li><strong>Fure a bolha:</strong> Busque fontes de informação com visões e perspectivas diferentes das suas.</li>
+                    <li><strong>Verifique antes de compartilhar:</strong> Use ferramentas de checagem de fatos antes de repassar links.</li>
+                    <li><strong>Limite o tempo de tela:</strong> Estabeleça períodos do dia totalmente livres de dispositivos digitais.</li>
+                </ul>
+                <button>❤️ <span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+            <div>
+                <!-- Substitua pelo caminho da sua imagem sobre bem-estar digital -->
+                <img src="protecao-icon.svg" class="imagem" alt="Ilustração de escudo e segurança digital">
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 Consciência Digital | Desenvolvido por Alexandra</p>
+    </footer>
+
+    <script>
+        const botoes = document.querySelectorAll("button");
+        botoes.forEach(function (botao) {
+            let curtiu = false;
+            botao.addEventListener("click", botaoClicado);
+            function botaoClicado() {
+                console.log("fui clicado");
+                let texto = botao.querySelector("span");
+                if (curtiu === false) {
+                    texto.textContent++;
+                    curtiu = true;
+                } else {
+                    texto.textContent--;
+                    curtiu = false;
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
